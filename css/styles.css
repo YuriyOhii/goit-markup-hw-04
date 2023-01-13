@@ -146,6 +146,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   background-position: center;
+  background-size: cover;
 }
 .hero .title {
   font-weight: 600;
@@ -169,8 +170,11 @@ body {
   display: flex;
 }
 .features .item {
-  flex-basis: calc((100% - 24px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
  
+}
+.features .title {
+  margin-top: 8px;
 }
 .features .item:not(:last-child) {
   margin-right: 24px;
@@ -277,7 +281,7 @@ body {
   gap: 24px;
 }
 .customers-item {
-  flex-basis: calc((100% - 24px * 5) / 6);
+  flex-basis: calc((100% - 120px) / 6);
   height: 88px;
 }
 .customer-link {
@@ -395,6 +399,7 @@ body {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  border-color: var(--primary-brand-color);
 }
 /* Portfolio filtr-list */
 .products .filtr-list {
@@ -432,9 +437,8 @@ body {
   padding-top: 96px;
   padding-bottom: 120px;
 }
-.products .link:hover .desc,
-.products .link:focus .desc {
-  border: 0.5px solid #f4f4fd;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+.products-link:hover .desc,
+.products-link:focus .desc {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
