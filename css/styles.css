@@ -349,9 +349,11 @@ body {
   height: 100%;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-  justify-content: center;
-  align-items: center;
 }
+ .footer-socials-icon {
+  margin: auto;
+ }
+
 .footer-socials-link:hover,
 .footer-socials-link:focus {
   background-color: #31d0aa;
